@@ -1,0 +1,582 @@
+/* ===========================
+   GLOBAL
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif;
+}
+
+body{
+    background:#F5F7FB;
+}
+
+.app{
+    width:100%;
+    min-height:100vh;
+    padding:40px;
+}
+
+/* ===========================
+   TITLE
+=========================== */
+
+.page-title{
+
+    text-align:center;
+
+    color:#4F46E5;
+
+    font-size:48px;
+
+    font-weight:700;
+
+    margin-bottom:40px;
+
+}
+
+/* ===========================
+   DASHBOARD
+=========================== */
+
+.dashboard{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr;
+
+    gap:30px;
+
+    align-items:start;
+
+}
+/* =====================================================
+   GLOBAL
+===================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+    background:#F5F7FB;
+}
+
+.app{
+
+    min-height:100vh;
+    background:#F5F7FB;
+
+}
+
+/* =====================================================
+   NAVBAR
+===================================================== */
+
+.navbar{
+
+    height:70px;
+
+    background:#4F46E5;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 40px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+.logo{
+
+    font-size:26px;
+
+    font-weight:bold;
+
+}
+
+.nav-menu{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:30px;
+
+}
+
+.nav-menu a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:17px;
+
+    transition:.3s;
+
+}
+
+.nav-menu a:hover{
+
+    color:#FFD54F;
+
+}
+
+.logout-btn{
+
+    background:#EF4444;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 18px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+}
+
+.logout-btn:hover{
+
+    background:#DC2626;
+
+}
+
+/* =====================================================
+   DASHBOARD STATS
+===================================================== */
+
+.stats-container{
+
+    width:92%;
+
+    margin:30px auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+
+}
+
+.stat-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    box-shadow:0 6px 15px rgba(0,0,0,.10);
+
+    transition:.3s;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.stat-card h4{
+
+    color:#6B7280;
+
+    margin-bottom:10px;
+
+}
+
+.stat-card h2{
+
+    color:#4F46E5;
+
+    font-size:38px;
+
+}
+
+/* =====================================================
+   DASHBOARD
+===================================================== */
+
+.dashboard{
+
+    width:92%;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr;
+
+    gap:25px;
+
+}
+
+.left-panel{
+
+    width:100%;
+
+}
+
+.right-panel{
+
+    width:100%;
+
+}
+
+.booking-form-container{
+
+    width:92%;
+
+    margin:20px auto;
+
+}
+
+.users-section{
+
+    width:92%;
+
+    margin:40px auto;
+
+}
+
+/* =====================================================
+   CARD
+===================================================== */
+
+.card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    box-shadow:0 6px 15px rgba(0,0,0,.08);
+
+}
+
+/* =====================================================
+   BUTTON
+===================================================== */
+
+button{
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    opacity:.9;
+
+}
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media(max-width:900px){
+
+    .stats-container{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .dashboard{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:600px){
+
+    .navbar{
+
+        flex-direction:column;
+
+        height:auto;
+
+        padding:20px;
+
+        gap:15px;
+
+    }
+
+    .nav-menu{
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+    }
+
+    .stats-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/* ===========================
+   LEFT PANEL
+=========================== */
+
+.left-panel{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+/* NAVBAR */
+
+.navbar{
+
+    height:75px;
+
+    background:#4F46E5;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 50px;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+
+}
+
+.logo{
+
+    font-size:26px;
+
+    font-weight:bold;
+
+}
+
+.nav-menu{
+
+    display:flex;
+
+    gap:30px;
+
+    align-items:center;
+
+}
+
+.nav-menu a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:17px;
+
+    transition:.3s;
+
+}
+
+.nav-menu a:hover{
+
+    color:#FFD54F;
+
+}
+
+.logout-btn{
+
+    background:#EF4444;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 18px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.logout-btn:hover{
+
+    background:#DC2626;
+
+}
+
+/* ===========================
+   RIGHT PANEL
+=========================== */
+
+.right-panel{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+/* ===========================
+   INPUTS
+=========================== */
+
+input,
+select{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:8px;
+
+    margin-bottom:18px;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+
+    font-size:15px;
+
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+
+button{
+
+    border:none;
+
+    border-radius:10px;
+
+    padding:12px;
+
+    background:#4F46E5;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+button:hover{
+
+    background:#4338CA;
+
+}
+
+/* ===========================
+   TABLE
+=========================== */
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+th{
+
+    background:#4F46E5;
+
+    color:white;
+
+    padding:14px;
+
+}
+
+td{
+
+    padding:12px;
+
+    border-bottom:1px solid #eee;
+
+}
+
+tr:hover{
+
+    background:#F8FAFC;
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:1000px){
+
+.dashboard{
+
+grid-template-columns:1fr;
+
+}
+
+.app{
+
+padding:20px;
+
+}
+
+.page-title{
+
+font-size:34px;
+
+}
+
+}
