@@ -1,0 +1,16 @@
+{
+  "java.jdt.ls.java.home": "E:\\",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-17",
+      "path": "E:\\",
+      "default": true
+    }
+  ],
+  "java.home": "E:\\",
+  "java.import.maven.enabled": true,
+  "java.autobuild.enabled": true,
+  "java.compile.nullAnalysis.mode": "disabled",
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "maven.executable.path": "E:\\apache-maven-3.9.16-bin\\apache-maven-3.9.16\\bin\\mvn.cmd"
+}
